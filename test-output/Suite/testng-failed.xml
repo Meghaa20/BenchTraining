@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BENCH.JENKINS.Negative">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="stopBrowser"/>
+          <include name="negative"/>
+        </methods>
+      </class> <!-- BENCH.JENKINS.Negative -->
+      <class name="BENCH.JENKINS.Positive">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="stopBrowser"/>
+          <include name="positive"/>
+        </methods>
+      </class> <!-- BENCH.JENKINS.Positive -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
